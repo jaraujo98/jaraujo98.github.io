@@ -96,7 +96,7 @@ heading {
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700
 }
 
@@ -128,4 +128,36 @@ name {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+.paper-image {
+  padding:10px 20px 20px 20px;
+  width:25%;
+  vertical-align:top;
+}
+
+.paper-thumb {
+  width: 160px;
+  height: 120px;
+  /* background-color: #f2f2f2;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px; */
+}
+
+.paper-thumb img, video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.paper-content-no-image {
+  padding:20px;
+  vertical-align:middle;
+}
+
+.paper-content-with-image {
+  padding:20px 20px 10px 0px;
+  width:75%;
+  vertical-align:middle;
 }
